@@ -1,0 +1,26 @@
+{
+  "name": "cypress-example",
+  "version": "1.0.0",
+  "description": "test project",
+  "main": "index.js",
+  "scripts": {
+    "test:run": "npx cypress run",
+    "test:open": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergolet/cypress-example.git"
+  },
+  "author": "serhii yurchenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergolet/cypress-example/issues"
+  },
+  "homepage": "https://github.com/sergolet/cypress-example#readme",
+  "devDependencies": {
+    "cypress": "^12.14.0"
+  },
+  "dependencies": {
+    "typescript": "^5.1.3"
+  }
+}
